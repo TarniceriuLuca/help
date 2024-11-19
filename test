@@ -1,0 +1,12 @@
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+@Test
+public void isPrime_1(){
+    Assertions.assertEquals(false, someCode.isPrime(21));
+}
+
+@Test
+public void siPrime_2(){
+    Assertions.assertEquals(true, someCode.isPrime(29));
+}
