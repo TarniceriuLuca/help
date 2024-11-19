@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+import java.util.List;
+
+List<Integer> intList  = new ArrayList<>();
+
+intList.isEmpty();
+intList.add(3);
+intList.get(0); --> returneaza primul element
+
+List<Object> objList = new ArrayList<>();
+Object obj = new Object(int somehting, float something);
+objList.add(obj);

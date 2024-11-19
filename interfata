@@ -1,0 +1,23 @@
+interface Interfata{
+	public String[] functie1();
+	public void functie2();
+	public int functie3();
+}
+
+
+public class ImplementareInterfata implements Interfata{
+	String var;
+	int[] sirInt;
+
+	public String[] functie1(){
+		implementare;
+		return;
+	}
+	public void functie2(){
+		implementare;
+		return;
+	}
+	public int functie3(){
+		implementare;
+		return;
+	}

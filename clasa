@@ -1,0 +1,29 @@
+public class Obiect extends ObiectMostenit{
+	private String s1, s2;
+	private float f1, f2;
+	
+	public Obiect(){}
+	public Obiect(String s1, String s2, float f1, float f2){
+		this.s1 = s1;
+		this.s2 = s2;
+		this.f1 = f1;
+		this.f2 = f2;
+
+		public float method();
+			return this.f1 + this.f2;
+		
+		public String gets1(){
+			return this.s1;
+		}
+		public float getf1(){
+			return this.f1;
+		}
+		public void sets1(String s1){
+			this.s1 = s1;
+		}
+		public void setf1(){float f1){
+			this.f1 = f1;
+		}
+
+	}
+

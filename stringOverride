@@ -1,0 +1,9 @@
+@Override
+public String toString(){
+	String rezultat = "nume: " + this.nume + " Autori: ";
+	for(int i = 0; i < 3; i++){
+		rezultat += this.autori[i] + "    ";
+	}
+
+	return rezultat;
+}
